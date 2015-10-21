@@ -1,0 +1,26 @@
+# test with blocksize = 256, #sets = 16, #lines = 4
+#
+#
+0 440010ab 0    #miss, set 0
+0 440010cd 0    #hit
+0 441010ab 0    #miss, set 0
+0 440010ab 0    #hit, set 0
+0 442010ab 0    #miss, set 0
+0 442010ab 0    #hit, set 0
+0 443010ab 0    #miss, set 0
+0 444010ab 0    #miss, set 0, replace tag 44101
+0 445010ab 0    #miss, set 0, replace tag 44001
+0 442010ab 0    #hit, set 0
+0 446010ab 0    #miss, set 0, replace tag 44301
+0 440011ab 0    #miss, set 1
+0 441011ab 0    #miss, set 1
+0 442011ab 0    #miss, set 1
+0 443011ab 0    #miss, set 1
+0 440011ab 0    #hit
+0 441011ab 0    #hit
+0 442011ab 0    #hit
+0 443011ab 0    #hit
+0 442011ab 0    #hit
+0 442011ab 0    #hit
+0 440011ab 0    #hit
+0 444011ab 0    #miss, replace tag 44101
