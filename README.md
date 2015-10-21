@@ -1,4 +1,6 @@
-Cache Simulation Assignment
+Cache Simulation Assignment:
+
+
 For this programming assignment, you'll write a simple cache simulator that takes as input a trace of addresses and cache configuration parameters (number of sets, number of lines and the block size) and outputs the number of accesses, number of hits, number of misses and the miss rate.
 
 The first section of the assignment gives an overview of how the cache simulator works. More details are provided in later sections. Be sure to read the entire assignment before starting.
